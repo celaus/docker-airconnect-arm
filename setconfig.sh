@@ -6,7 +6,7 @@
 # otherwise the defaults will be used.
 
 echo "<?xml version=\"1.0\"?>"
-echo "<airupnp>"
+echo "<aircast>"
 echo "     <common>"
 echo "         <enabled>1</enabled>"
 echo "         <max_volume>100</max_volume>"
@@ -21,4 +21,4 @@ echo "     <upnp_log>${UPNP_LOG:-info}</upnp_log>"
 echo "     <util_log>${UTIL_LOG:-info}</util_log>"
 echo "     <raop_log>${RAOP_LOG:-info}</raop_log>"
 echo "     <log_limit>2</log_limit>"
-echo "</airupnp>"
+echo "</aircast>"
